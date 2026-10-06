@@ -1,5 +1,6 @@
 import Navbar from './componentes/Navbar';
-import Home from './componentes/Home';
+import Registro from './componentes/Registro';
+import InicioSesion from './componentes/InicioSesion';
 import Footer from './componentes/Footer';
 import './App.css';
 
@@ -7,7 +8,10 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Navbar />
-      <Home />
+      <main className="pagina-autenticacion">
+        <Registro />
+        <InicioSesion />
+      </main>
       <Footer />
     </div>
   );

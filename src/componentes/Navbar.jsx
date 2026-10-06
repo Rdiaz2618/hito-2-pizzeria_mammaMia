@@ -10,17 +10,17 @@ const Navbar = () => {
         <span className="navbar-brand mb-0">Pizzería Mamma Mia!</span>
 
         <div className="d-flex gap-2 flex-wrap">
-          <button className="btn btn-outline-light btn-sm">🍕 Home</button>
+          <button className="btn btn-outline-light btn-sm">🍕 Inicio</button>
 
           {token ? (
             <>
-              <button className="btn btn-outline-light btn-sm">🔓 Profile</button>
-              <button className="btn btn-outline-light btn-sm">🔒 Logout</button>
+              <button className="btn btn-outline-light btn-sm">🔓 Perfil</button>
+              <button className="btn btn-outline-light btn-sm">🔒 Cerrar sesión</button>
             </>
           ) : (
             <>
-              <button className="btn btn-outline-light btn-sm">🔐 Login</button>
-              <button className="btn btn-outline-light btn-sm">🔐 Register</button>
+              <button className="btn btn-outline-light btn-sm">🔐 Iniciar sesión</button>
+              <button className="btn btn-outline-light btn-sm">🔐 Registrarse</button>
             </>
           )}
         </div>
