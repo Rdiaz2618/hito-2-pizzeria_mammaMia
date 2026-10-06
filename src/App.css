@@ -1,6 +1,6 @@
 .pagina-autenticacion {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 420px));
+  grid-template-columns: minmax(280px, 420px);
   gap: 2rem;
   justify-content: center;
   align-items: start;
